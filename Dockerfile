@@ -1,4 +1,4 @@
-ROM theone74/rtorrent
+FROM theone74/rtorrent
 USER root
 
 # php-geoip left out
