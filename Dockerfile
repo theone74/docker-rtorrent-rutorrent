@@ -3,7 +3,7 @@ USER root
 
 # php-geoip left out
 RUN apk add --no-cache mediainfo unzip unrar curl php7-fpm php7 php7-json php7-zip nginx wget ffmpeg supervisor git sox && \
-    git clone -b alpine https://github.com/diameter/rtorrent-rutorrent-shared.git a && \
+    git clone -b alpine https://github.com/theone74/rtorrent-rutorrent-shared.git a && \
     mkdir -p /var/www && cd /var/www && \
     git clone https://github.com/Novik/ruTorrent.git rutorrent && \
     rm -rf ./rutorrent/.git* && cd / && \
